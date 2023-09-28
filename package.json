@@ -1,0 +1,27 @@
+{
+  "name": "chitchat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muqaddas-moeen/chit-chat.git"
+  },
+  "author": "Muqaddas Moeen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muqaddas-moeen/chit-chat/issues"
+  },
+  "homepage": "https://github.com/muqaddas-moeen/chit-chat#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "mongoose": "^7.5.3",
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.7.2"
+  }
+}
